@@ -8,21 +8,21 @@ if playing.lower() != "yes":
 print ("Okay! Let's play ")
 score = 0
 
-answer = input("What does CPU stand for? ")
-if answer.lower() == "central processing unit":
+answer = input("What is the capital of Madagascar? ")
+if answer.lower() == "Antananarivo":
     print('Correct')
     score += 1
 else:
     print("Incorrect!")
 
-answer = input("What is my favourite colour? ")
-if answer.lower() == "pink":
+answer = input("Where can you find the famous Mona Lisa painting? ")
+if answer.lower() == "Louvre":
     print('Correct')
     score += 1
 else:
     print("Incorrect!")
 
-answer = input("Do you like cats? ")
+answer = input("Was Mozart a well known composer? ")
 if answer.lower() == "yes":
     print('Correct')
     score += 1
